@@ -26,7 +26,7 @@ def download_pdf(url):
 
 
 def pdf_to_images(pdf_path):
-    images = convert_from_path(pdf_path, poppler_path="./poppler/bin")
+    images = convert_from_path(pdf_path)
 
     return images
 
